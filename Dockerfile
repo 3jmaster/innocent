@@ -6,4 +6,4 @@ FROM kalilinux/kali-linux-docker:latest
 #   apt clean && \
 #   apt install -y kali-linux-top10
 
-EXPOSE 22
+EXPOSE 22 5901 6901 
