@@ -5,3 +5,5 @@ FROM kalilinux/kali-linux-docker:latest
 #   apt autoremove && \
 #   apt clean && \
 #   apt install -y kali-linux-top10
+
+EXPOSE 22
