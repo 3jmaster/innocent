@@ -1,0 +1,8 @@
+#!/bin/sh
+# ENABLE CUT AND PASTE
+xrdb $HOME/.Xresources
+xsetroot -solid grey
+autocutsel -fork
+# Fix to make GNOME work
+export XKL_XMODMAP_DISABLE=1
+/etc/X11/Xsession
